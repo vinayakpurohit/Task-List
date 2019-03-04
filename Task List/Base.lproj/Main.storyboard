@@ -32,7 +32,13 @@
                             <outlet property="delegate" destination="sky-Rj-1Vp" id="veg-8f-79a"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Tasky" id="Lay-jA-cV6"/>
+                    <navigationItem key="navigationItem" title="Tasky" id="Lay-jA-cV6">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yeP-8o-eVD">
+                            <connections>
+                                <action selector="addItemButtonPressed:" destination="sky-Rj-1Vp" id="HSP-IZ-RHl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kEE-1X-2XD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
