@@ -34,6 +34,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Tasky" id="Lay-jA-cV6">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="yeP-8o-eVD">
+                            <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="addItemButtonPressed:" destination="sky-Rj-1Vp" id="HSP-IZ-RHl"/>
                             </connections>
